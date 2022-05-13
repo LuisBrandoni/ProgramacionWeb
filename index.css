@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	
+	 background-image: url("Imagen para tarjeta.jpg"); 
+	 background-repeat:  no-repeat;
+	 background-attachment: fixed;
+	 background-size: cover;
+	 color: #FFFFFF;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabecera {
+	height: 100px;
+	
+}
+.navegacion 
+
+header{
+  font-family: Helvetica;
+  width: 480px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+#menu li>a{
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+
+.menu{
+
+
+}
+.principal {
+	height: 5000px;
+	  
+	margin: 1000px 0px;
+}
+.secundario {
+	height: 300px;
+	background-color: black;
+	margin: 10px 0px;
+}
+.c1 {
+	height: 100px;
+	width: 250px;
+	background-color: black;
+	float: left;
+	margin: 10px;
+}
+.c1 .logo {
+	margin: 0px;
+	float: none;
+}
+.c2 {
+	height: 100px;
+	width: 250px;
+	background-color: grey;
+	float: right;
+	margin: 10px;
+}
+.flotaIzq {
+	float: left;
+}
+.flotaDer {
+	float: right;
+}
+.rojo {
+	background-color: red;
+}
+.negro {
+	background-color: black;
+}
+.ancho25p {
+	width: 25%;
+}
+.alto200 {
+	height: 200px;
+}
+.alto300 {
+	height: 300px;
+}
